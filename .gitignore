@@ -1,0 +1,1746 @@
+# ---------------------------------------------------------------------------
+# Unity 工程标准忽略（UUID 为 github/gitignore 的 Unity 模板）
+# 生成：tools/gen_gitignore.py  阈值：1
+# ---------------------------------------------------------------------------
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.log
+
+# 编辑器 / IDE
+.vs/
+.idea/
+.vscode/
+.gradle/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+*.DotSettings.user
+
+# Unity Version Control (Plastic) 本地元数据
+.plastic/
+
+# 构建产物 / 崩溃文件
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+sysinfo.txt
+crashlytics-build.properties
+mono_crash.*
+
+# Addressables / Visual Scripting 自动生成
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# 其它
+*.blend1
+*.blend1.meta
+
+# ==== BEGIN 大体积资源排除（由 tools/gen_gitignore.py 自动生成，请勿手改此区块） ====
+# 下列 1552 个文件均 >= 1 MB，合计 8479 MB。
+# 它们在本地保留、不提交到 Git；需要时从备份/网盘恢复（保持同名同路径）。
+
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Demo scene/Demo scene hero/Hero.fbx
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Chain1Normal.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Concrete slab.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Concrete slab_Height.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Concrete slab_MetallicSmoothness.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Concrete slab_Normal.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Noise43.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Noise50.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Noise53.png
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/Trail62For.psd
+Assets/ART/Effects/ErbGameArt/Epic toon VFX/Textures/WaterF2.psd
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Clip_N.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Goop_GP.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Mist_01.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Mist_02.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Mist_04.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Mist_Directional_2x2_NRM.png
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Slash.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Spray_01.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_Spray_SubUV_1x4.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Blood_SubUV_2x2_01_NRM.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Gib_Red_NRM.TGA
+Assets/ART/Effects/FXVille_BloodPack/Textures/T_Noise_01.TGA
+Assets/ART/Effects/FXVille_BloodPack/_Demo Assets/Robot Kyle/Textures/Robot_Color.tga
+Assets/ART/Effects/FXVille_BloodPack/_Demo Assets/Robot Kyle/Textures/Robot_Normal.tga
+Assets/ART/juese/Oriental_Sword/Animation/Generic/00_T-pose.FBX
+Assets/ART/juese/Oriental_Sword/Animation/Generic/B_idle01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/B_idle02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/B_idle01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/B_idle02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack05_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack06_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack07_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attack08_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/attacked_f_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_01_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_01_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_01_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_01_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_02_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_02_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_02_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_03_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_03_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_03_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_04_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_04_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_05_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_05_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_05_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_05_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_06_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_06_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_06_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_06_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_07_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_08_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_08_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_08_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_08_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_08_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_09_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_09_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_09_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_09_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/combo_09_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/dead_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/dead_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/dead_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/dead_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/dead_05_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/defence01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/defence02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/down_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/down_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/equip_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/hit_head_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/hit_head_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/hit_head_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/hit_head_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/jumpZ0_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/jump_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/rise_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/rise_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/roll_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/roll_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/roll_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/roll_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_backL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_backR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_frontL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_frontR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/run_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/unequip_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_backL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_backR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_frontL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_frontR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/Inplace/walk_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack05.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack06.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack07.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attack08.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/attacked_f.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_01_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_01_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_01_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_01_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_02_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_02_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_02_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_03_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_03_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_03_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_04_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_04_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_05.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_05_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_05_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_05_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_06.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_06_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_06_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_06_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_07.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_08.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_08_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_08_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_08_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_08_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_09.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_09_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_09_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_09_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/combo_09_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/dead_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/dead_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/dead_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/dead_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/dead_05.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/defence01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/defence02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/down_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/down_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/equip.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/hit_head_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/hit_head_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/hit_head_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/hit_head_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/jump.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/jumpZ0.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/rise_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/rise_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/roll_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/roll_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/roll_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/roll_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_backL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_backR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_frontL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_frontR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/run_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/unequip.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_backL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_backR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_frontL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_frontR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Generic/walk_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/00_T-pose.FBX
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/B_idle01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/B_idle02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/B_idle01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/B_idle02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack05_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack06_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack07_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attack08_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/attacked_f_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_01_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_01_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_01_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_01_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_02_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_02_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_02_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_03_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_03_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_03_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_04_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_04_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_05_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_05_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_05_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_05_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_06_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_06_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_06_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_06_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_07_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_08_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_08_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_08_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_08_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_08_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_09_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_09_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_09_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_09_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/combo_09_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/dead_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/dead_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/dead_03_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/dead_04_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/dead_05_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/defence01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/defence02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/down_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/down_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/equip_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/hit_head_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/hit_head_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/hit_head_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/hit_head_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/jumpZ0_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/jump_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/rise_01_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/rise_02_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/roll_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/roll_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/roll_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/roll_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_backL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_backR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_frontL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_frontR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/run_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/unequip_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_backL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_backR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_back_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_frontL45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_frontR45_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_front_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_left_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/Inplace/walk_right_inplace.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack05.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack06.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack07.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attack08.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/attacked_f.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_01_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_01_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_01_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_01_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_02_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_02_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_02_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_03_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_03_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_03_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_04_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_04_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_05.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_05_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_05_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_05_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_06.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_06_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_06_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_06_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_07.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_08.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_08_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_08_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_08_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_08_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_09.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_09_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_09_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_09_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/combo_09_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/dead_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/dead_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/dead_03.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/dead_04.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/dead_05.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/defence01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/defence02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/down_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/down_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/equip.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/hit_head_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/hit_head_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/hit_head_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/hit_head_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/jump.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/jumpZ0.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/rise_01.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/rise_02.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/roll_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/roll_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/roll_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/roll_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_backL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_backR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_frontL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_frontR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/run_right.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/unequip.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_back.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_backL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_backR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_front.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_frontL45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_frontR45.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_left.fbx
+Assets/ART/juese/Oriental_Sword/Animation/Humanoid/walk_right.fbx
+Assets/ASE/AmplifyShaderEditor/Examples/Built-In Samples.unitypackage
+Assets/ASE/AmplifyShaderEditor/Examples/HDRP Samples (Legacy).unitypackage
+Assets/ASE/AmplifyShaderEditor/Examples/HDRP Samples 7xx - 9xx (Legacy).unitypackage
+Assets/ASE/AmplifyShaderEditor/Examples/HDRP Samples.unitypackage
+Assets/ASE/AmplifyShaderEditor/Examples/Sample Resources.unitypackage
+Assets/House/Abandoned_Asylum/Models/Asylum.fbx
+Assets/House/Abandoned_Asylum/Models/Statue.fbx
+Assets/House/Abandoned_Asylum/Show/Lightmap-10_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-11_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-12_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-13_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-14_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-15_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-16_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-17_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-18_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-19_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-20_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-21_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-22_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-23_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-24_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-25_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-26_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-27_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-28_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-29_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-8_comp_light.exr
+Assets/House/Abandoned_Asylum/Show/Lightmap-9_comp_light.exr
+Assets/House/Abandoned_Asylum/Show_Assets/Lightmap-0_comp_light.exr
+Assets/House/Abandoned_Asylum/Show_Assets/ReflectionProbe-0.exr
+Assets/House/Abandoned_Asylum/Textures/Antlers_2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Antlers_2_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Antlers_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Antlers_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Bath_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Bath_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Bed_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Bed_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Bed_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Bench_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Bench_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Bench_Normal.png
+Assets/House/Abandoned_Asylum/Textures/BigBoiler_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/BigBoiler_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/BigHangs_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/BigHangs_AlbedoTransparency_V2.png
+Assets/House/Abandoned_Asylum/Textures/BigHangs_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/BigHangs_Normal.png
+Assets/House/Abandoned_Asylum/Textures/BigHangs_V3_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/BigKettle_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/BigKettle_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/BigKettle_Normal.png
+Assets/House/Abandoned_Asylum/Textures/BigShelf_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/BigShelf_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/BigShelf_Normal.png
+Assets/House/Abandoned_Asylum/Textures/BigShelf_Stock_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/BigShelf_Stock_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/BigShelf_Stock_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Board_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Board_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Box_V1_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Box_V1_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Box_V2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Box_V2_Normal.png
+Assets/House/Abandoned_Asylum/Textures/CanOld_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/CanOld_Damaged_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/CanOld_Damaged_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/CanOld_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Carpet_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Carpet_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Carpet_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Case_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Case_Main_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Case_Main_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Case_Main_Normal.png
+Assets/House/Abandoned_Asylum/Textures/ChairLeather_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/ChairLeather_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ChairLeather_Normal.png
+Assets/House/Abandoned_Asylum/Textures/ChairOffice_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/ChairOffice_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ChairOffice_Normal.png
+Assets/House/Abandoned_Asylum/Textures/ChairSchool_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/ChairSchool_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ChairSchool_Normal.png
+Assets/House/Abandoned_Asylum/Textures/ChairWhite_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/ChairWhite_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Chandelier_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Chandelier_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Chandelier_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Crutches_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Crutches_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Crutches_Normal.png
+Assets/House/Abandoned_Asylum/Textures/CupboardLight_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/CupboardLight_Broken_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/CupboardLight_Broken_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/CupboardLight_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Cupboard_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Cupboard_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Cupboard_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Cupboard_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/CurtainsMedic_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/CurtainsMedic_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/CurtainsMedic_Normal.png
+Assets/House/Abandoned_Asylum/Textures/DiningRoom_EnterFrame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DiningRoom_EnterFrame_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/DiningRoom_EnterGlass_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DiningRoom_EnterGlass_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V1_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V1_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V1_Door_Normal.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V1_Frame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V1_Frame_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V1_Frame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Door_Normal.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Frame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Frame_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Frame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Window_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/DoorD_V2_Window_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V1_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Door_V1_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V1_Frame_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Door_V1_Frame_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V2_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Door_V2_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V2_Door_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Door_V2_Frame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Door_V2_Frame_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V2_Frame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Door_V3_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Door_V3_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V3_Door_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Door_V3_Frame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Door_V3_Frame_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Door_V3_Frame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Elevator_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Elevator_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Elevator_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Elevator_Door_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Elevator_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Elevator_Normal.png
+Assets/House/Abandoned_Asylum/Textures/FilmProjector_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/FilmProjector_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/FilmProjector_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Fridge_Case_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Fridge_Case_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/GR_Frame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/GR_Frame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/GR_Glass_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/GR_Glass_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/GateHouse_GH_frame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/GateHouse_GH_frame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/GateHouse_GH_glass_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/GateHouse_GH_glass_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Heater_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Heater_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Heater_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Kettle_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Kettle_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Keybord.png
+Assets/House/Abandoned_Asylum/Textures/Keybord_normal.png
+Assets/House/Abandoned_Asylum/Textures/KitchenShelf_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/KitchenShelf_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/LampWall_Albedoň.png
+Assets/House/Abandoned_Asylum/Textures/LampWall_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/LampWall_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Lamp_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Lamp_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Lamp_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MainDoor_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MainDoor_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Map1stFloor_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Map1stFloor_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Map1stFloor_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MapFrame_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MapFrame_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MapGround_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MapGround_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MapGround_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Mattress_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Mattress_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Mattress_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MedRack_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MedRack_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MedRack_V2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MedRack_V2_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Bed_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Bed_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Door_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Door_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Door_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MorgueBox_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MorgueTable_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MorgueTable_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/MorgueTable_Normal.png
+Assets/House/Abandoned_Asylum/Textures/MorgueWheelBed_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/MorgueWheelBed_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/NeonLamp_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/NeonLamp_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/NeonLamp_Normal.png
+Assets/House/Abandoned_Asylum/Textures/PC_Monitor_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/PC_Monitor_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Pillar_Marble_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Pillow_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Pipe_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Pipe_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Pipe_Normal.png
+Assets/House/Abandoned_Asylum/Textures/PosterHuman_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/PosterHuman_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Pot_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ProjectorCloth_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/ProjectorCloth_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ProjectorCloth_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SheetRack_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SheetRack_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SheetRack_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Shower_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Shower_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Shower_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Sink_Sink_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/Sink_Sink_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sink_V1_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Sink_V1_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sink_V1_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SmallMetalicCase_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SmallMetalicCase_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SmallMetalicCase_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SofaChair_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SofaChair_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SofaChair_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Pillows_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Pillows_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Pilow_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Pilow_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Pilow_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Sofa_Base_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Sofa_Bottom_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Sofa_Bottom_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Sofa_Patern_AlbedoTransparency.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Sofa_Patern_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Sofa_Sofa_Patern_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Statue_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Statue_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Statue_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryBed_Construction_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryBed_Construction_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryBed_Matres_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryBed_Matres_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryBed_Spring_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryChair_Construction_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryChair_Construction_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryChair_Construction_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryChair_Pillow_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryChair_Pillow_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryChair_Pillow_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryLamp_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryLamp_Normal.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryLamp__Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryTable_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryWheelBad_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryWheelBad_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/SurgeryWheelBad_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Suspension_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Suspension_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Suspension_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Suspension_V2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Suspension_V2_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Suspension_V2_Normal.png
+Assets/House/Abandoned_Asylum/Textures/TV_Retro_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TV_Retro_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/TV_Retro_Normal.png
+Assets/House/Abandoned_Asylum/Textures/TableKitchen_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TableKitchen_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/TableOffice_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TableOffice_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/TableSchool_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TableSchool_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/TableSmall_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TableSmall_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/TableWhiteKitchen_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TableWhiteKitchen_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/TableWhite_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/TableWhite_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Table_Bed_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Table_Bed_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tank_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tank_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tank_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tank_V2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tank_V2_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tank_V2_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Television_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Television_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_10_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_10_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_10_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_11_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_11_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_11_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_12_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_12_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_12_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_13_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_13_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_13_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_1_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_1_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_1_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_2_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_2_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_3_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_3_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_3_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_4_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_4_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_4_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_5_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_5_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_5_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_6_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_6_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_6_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_7_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_7_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_7_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_8_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_8_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_8_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_9_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_9_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Tiles/Tiles_9_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_1_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_1_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_1_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_2_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_2_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_2_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_3_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_3_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_3_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_4_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_4_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_4_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_5_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_5_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_5_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_6_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_6_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Tiled/Walls/Wall_6_Normal.png
+Assets/House/Abandoned_Asylum/Textures/ToiletDoor_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ToiletWall_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/ToiletWall_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/ToiletWall_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Wall_Wood_3_normal.png
+Assets/House/Abandoned_Asylum/Textures/Wall_Wood_difuse.png
+Assets/House/Abandoned_Asylum/Textures/WheelChair_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/WheelChair_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/WheelChair_Normal.png
+Assets/House/Abandoned_Asylum/Textures/WindowHall_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/WindowHall_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/WindowHall_Normal.png
+Assets/House/Abandoned_Asylum/Textures/Window_Barrier_Albedo.png
+Assets/House/Abandoned_Asylum/Textures/Window_Barrier_MetallicSmoothness.png
+Assets/House/Abandoned_Asylum/Textures/Window_Barrier_Normal.png
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_1.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_2.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_3.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_4.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_5.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_6.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_7.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_8.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_1.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_2.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_3.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_4.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Get_Hit_1.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Get_Hit_2.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle_Othe.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle_Other_02.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle_Sit.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Jump.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run_Back.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run_Left.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run_Right.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Shout.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Take_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_Right.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_Right_Sit.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_left.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_left_Sit.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Back.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Back_Sit.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Left.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Left_Sit.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Right.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Sit.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Sit_Right.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_1_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_2_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_Left_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_Right_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Get_Hit_1_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Get_Hit_2_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_2_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_3_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_Swim.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Jump_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Back_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Left_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Right_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Shout_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Swim.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_Right_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_Right_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_left_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_left_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Back_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Back_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Left_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Left_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Right_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Right_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Sit_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Without_Weapon.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Run.fbx
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Walk.fbx
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Back_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Left_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Right_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Back_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Back_Sit_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Left_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Left_Sit_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Right_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Sit_Right_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Sit_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Back_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Left_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Right_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Swim_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Back_Sit_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Back_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Left_Sit_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Left_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Right_Sit_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Right_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Sit_Without_Weapon_Root.FBX
+Assets/House/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Without_Weapon_Root.FBX
+Assets/House/Asset pack for horror game/Models/Door/Door_BaseColor.png
+Assets/House/Asset pack for horror game/Models/Door/Door_Normal.png
+Assets/House/Asset pack for horror game/Models/Door/Door_Roughness.png
+Assets/House/Asset pack for horror game/Models/Room/Room_BaseColor.png
+Assets/House/Asset pack for horror game/Models/Room/Room_Normal.png
+Assets/House/Asset pack for horror game/Models/Room/Room_Roughness.png
+Assets/House/Asset pack for horror game/Models/Wheelchair/Wheelchair_Normal.png
+Assets/House/Asset pack for horror game/Models/Window/Window_BaseColor.png
+Assets/House/Asset pack for horror game/Models/Window/Window_Normal.png
+Assets/House/Asset pack for horror game/Models/Wooden table/Wooden table_BaseColor.png
+Assets/House/Asset pack for horror game/Models/Wooden table/Wooden table_Metallic.png
+Assets/House/Asset pack for horror game/Models/Wooden table/Wooden table_Normal.png
+Assets/House/Asset pack for horror game/Models/Wooden table/Wooden table_Roughness.png
+Assets/House/Asset pack for horror game/Models/bed with person with blood/bed with person with blood_BaseColor.png
+Assets/House/Asset pack for horror game/Models/bed with person with blood/bed with person with blood_Normal.png
+Assets/House/Asset pack for horror game/Models/bed with person with blood/bed with person with blood_Roughness.png
+Assets/House/Asset pack for horror game/Models/bed/Bed_BaseColor.png
+Assets/House/Asset pack for horror game/Models/bed/Bed_Normal.png
+Assets/House/Asset pack for horror game/Models/bed/Bed_Roughness.png
+Assets/House/Asset pack for horror game/Models/broken bed/broken bed_BaseColor.png
+Assets/House/Asset pack for horror game/Models/broken bed/broken bed_Metallic.png
+Assets/House/Asset pack for horror game/Models/broken bed/broken bed_Normal.png
+Assets/House/Asset pack for horror game/Models/broken bed/broken bed_Roughness.png
+Assets/House/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood_BaseColor.png
+Assets/House/Asset pack for horror game/Models/broken wheelchair with blood/broken wheelchair with blood_Normal.png
+Assets/House/Asset pack for horror game/Models/broken window/broken window_BaseColor.png
+Assets/House/Asset pack for horror game/Models/broken window/broken window_Normal.png
+Assets/House/Asset pack for horror game/Models/broken window/broken window_Roughness.png
+Assets/House/Asset pack for horror game/Models/curtain/curtain_BaseColor.png
+Assets/House/Asset pack for horror game/Models/curtain/curtain_Normal.png
+Assets/House/Asset pack for horror game/Models/dirty curtain/dirty curtain_BaseColor.png
+Assets/House/Asset pack for horror game/Models/dirty curtain/dirty curtain_Normal.png
+Assets/House/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_BaseColor.png
+Assets/House/Asset pack for horror game/Models/incandescent lamp/incandescent lamp_Normal.png
+Assets/House/Asset pack for horror game/Models/iron chair/iron chair_BaseColor.png
+Assets/House/Asset pack for horror game/Models/iron chair/iron chair_Metallic.png
+Assets/House/Asset pack for horror game/Models/iron chair/iron chair_Normal.png
+Assets/House/Asset pack for horror game/Models/iron chair/iron chair_Roughness.png
+Assets/House/Asset pack for horror game/Models/wood chair/wood chair_BaseColor.png
+Assets/House/Asset pack for horror game/Models/wood chair/wood chair_Normal.png
+Assets/House/Asset pack for horror game/Models/wood chair/wood chair_Roughness.png
+Assets/House/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/Minebot.tif
+Assets/House/AstarPathfindingProject/ExampleScenes/Prefabs/MineBot/Materials/Minebot_NRM.tif
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_AO.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_N.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_BedBedding_S.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.psd
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_M.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.psd
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Bed_Metal_01_N.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_A.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_MR.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Door_01_N.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp.png
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_M.png
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Lamp_N.png
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_M.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Med_box_01_N.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_C.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_N.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile01_R.TGA
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_C.TGA
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_N.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile02_R.TGA
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Tile03.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_C.TGA
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_N.TGA
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime01_R.TGA
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_C.tga
+Assets/House/Dnk_Dev/HospitalHorrorPack/Textures/T_Walllime02_N.tga
+Assets/House/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac.tga
+Assets/House/Flashlight/Flashlight_Gold/Textures/FlashLight_DFopac_Color.tga
+Assets/House/Flashlight/Flashlight_Gold/Textures/FlashLight_NM.png
+Assets/House/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossA.tga
+Assets/House/Flashlight/Flashlight_Gold/Textures/FlashLight_SpecGlossAGold.tga
+Assets/House/Flashlight/Misc/Flashlight.FBX
+Assets/House/Flashlight/Misc/Flashlight.fbm/FlashLight_GL.png
+Assets/House/Flashlight/Misc/Flashlight.fbm/FlashLight_NM.png
+Assets/House/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_AL.png
+Assets/House/Flashlight/Misc/Flashlight.fbm/LP_FlashLight_RFMorSP2.png
+Assets/House/Flashlight/Textures/FlashLight_DFSA.png
+Assets/House/Flashlight/Textures/FlashLight_NM.png
+Assets/House/HorrorHealingPack/HerbMix/Icons/HerbMix_Blue.png
+Assets/House/HorrorHealingPack/HerbMix/Icons/HerbMix_Green.png
+Assets/House/HorrorHealingPack/HerbMix/Icons/HerbMix_GreenBlue.png
+Assets/House/HorrorHealingPack/HerbMix/Icons/HerbMix_GreenRed.png
+Assets/House/HorrorHealingPack/HerbMix/Icons/HerbMix_Red.png
+Assets/House/HorrorHealingPack/HerbMix/Icons/HerbMix_RedBlue.png
+Assets/House/HorrorHealingPack/Pills/Icons/Pills_Blue.png
+Assets/House/Survival Tools/Textures/small_hangar_01.png
+Assets/House/Survival Tools/Textures/survivaltools2_Battery_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Battery_MetallicSmoothness.png
+Assets/House/Survival Tools/Textures/survivaltools2_Battery_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_CannedFood_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_CannedFood_MetallicSmoothness.png
+Assets/House/Survival Tools/Textures/survivaltools2_CannedFood_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_FirstAidKit_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_FirstAidKit_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_Flashlight_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Flashlight_MetallicSmoothness.png
+Assets/House/Survival Tools/Textures/survivaltools2_Flashlight_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_MatchBox_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_MatchBox_MetallicSmoothness.png
+Assets/House/Survival Tools/Textures/survivaltools2_MatchBox_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_Matches_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Matches_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_Pills_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Tape_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Tape_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_Walkie_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Walkie_MetallicSmoothness.png
+Assets/House/Survival Tools/Textures/survivaltools2_Walkie_Normal.png
+Assets/House/Survival Tools/Textures/survivaltools2_Water_AlbedoTransparency.png
+Assets/House/Survival Tools/Textures/survivaltools2_Water_Normal.png
+Assets/House/TirgamesAssets/Factory/Environment/SkyBoxes/Textures/SkyIndustrial01Back.png
+Assets/House/TirgamesAssets/Factory/Environment/SkyBoxes/Textures/SkyIndustrial01Front.png
+Assets/House/TirgamesAssets/Factory/Environment/SkyBoxes/Textures/SkyIndustrial01Left.png
+Assets/House/TirgamesAssets/Factory/Environment/SkyBoxes/Textures/SkyIndustrial01Right.png
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryDay/Lightmap-0_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryDay/Lightmap-1_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryDay/Lightmap-2_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryDay/Lightmap-3_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryDay/ReflectionProbe-0.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryDay/ReflectionProbe-3.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryNight/Lightmap-0_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryNight/Lightmap-1_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryNight/Lightmap-2_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryNight/Lightmap-3_comp_light.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryNight/ReflectionProbe-0.exr
+Assets/House/TirgamesAssets/Factory/Scenes/FactoryNight/ReflectionProbe-3.exr
+Assets/House/TirgamesAssets/Factory/Textures/Barrels01.png
+Assets/House/TirgamesAssets/Factory/Textures/Barrels01Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Barrels01NM.png
+Assets/House/TirgamesAssets/Factory/Textures/Barrels02.png
+Assets/House/TirgamesAssets/Factory/Textures/Barrels02Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Barrels02NM.png
+Assets/House/TirgamesAssets/Factory/Textures/Columns01.png
+Assets/House/TirgamesAssets/Factory/Textures/Columns01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Columns01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonBricks01.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonBricks01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonBricks01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcrete04.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcrete04_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcrete04_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcrete05.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcrete05_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcrete05_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall01.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall02.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall02_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall02_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall03.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall03_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonConcreteWall03_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetal01.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetal01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetal01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetalDiamond01.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetalDiamond01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetalDiamond01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetalPainted01.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetalPainted01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonMetalPainted01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonSteelRoof01.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonSteelRoof01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/CommonSteelRoof01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/Crane01.png
+Assets/House/TirgamesAssets/Factory/Textures/Crane01Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Crane01NM.png
+Assets/House/TirgamesAssets/Factory/Textures/Debris01.png
+Assets/House/TirgamesAssets/Factory/Textures/Debris01Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Debris01NM.png
+Assets/House/TirgamesAssets/Factory/Textures/DecalsDirt01.png
+Assets/House/TirgamesAssets/Factory/Textures/DoorIndustrial01.png
+Assets/House/TirgamesAssets/Factory/Textures/DoorIndustrial01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/DoorIndustrial01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/FanBig01.png
+Assets/House/TirgamesAssets/Factory/Textures/FanBig01_AO.png
+Assets/House/TirgamesAssets/Factory/Textures/FanBig01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/FanBig01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/FireExtinguisher01.png
+Assets/House/TirgamesAssets/Factory/Textures/FireExtinguisher01_AO.png
+Assets/House/TirgamesAssets/Factory/Textures/FireExtinguisher01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/FireExtinguisher01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/GasBallones01.png
+Assets/House/TirgamesAssets/Factory/Textures/GasBallones01NM.png
+Assets/House/TirgamesAssets/Factory/Textures/GasBallones01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/LampCeiling01.png
+Assets/House/TirgamesAssets/Factory/Textures/LampCeiling01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/LargeGates1.png
+Assets/House/TirgamesAssets/Factory/Textures/LargeGates1Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/LargeGates1NM.png
+Assets/House/TirgamesAssets/Factory/Textures/LargeGates2.png
+Assets/House/TirgamesAssets/Factory/Textures/LargeGates2Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/LargeGates2NM.png
+Assets/House/TirgamesAssets/Factory/Textures/MetalCabinet01.png
+Assets/House/TirgamesAssets/Factory/Textures/MetalCabinet01NM.png
+Assets/House/TirgamesAssets/Factory/Textures/MetalCabinet01_2.png
+Assets/House/TirgamesAssets/Factory/Textures/MetalCabinet01_2Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/MetalCabinet01_2NM.png
+Assets/House/TirgamesAssets/Factory/Textures/MetalCabinet01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Motor01.png
+Assets/House/TirgamesAssets/Factory/Textures/Motor01_AO.png
+Assets/House/TirgamesAssets/Factory/Textures/Motor01_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/Motor01_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_1.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_1_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_1_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_2.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_2_Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_2_NM.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox01_AO.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox02_1.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox02_2.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox02_2Metallic.png
+Assets/House/TirgamesAssets/Factory/Textures/PowerBox03.png
+Assets/House/TirgamesAssets/Factory/Textures/WindowsBroken01.png
+Assets/House/TirgamesAssets/Factory/Textures/WindowsBroken01NM.png
+Assets/Resources/Bathroom_floor.fbx
+Assets/Resources/Models/Statue.fbx
+Assets/XvQiLin/Demon Horror Creature with Weapon/Meshes/Demon.fbx
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_AO.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_BaseColor.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Metallic.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Normal_DirectX.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Normal_OpenGL.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Ball_tex/Ball_Roughness.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon1_AO.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon1_Scatter.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_BaseColor.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Metallic.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Normal_DirectX.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Normal_OpenGL.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_damaged_tex/Demon2_Roughness.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_BaseColor.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Normal_DirectX.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Normal_OpenGL.png
+Assets/XvQiLin/Demon Horror Creature with Weapon/Textures/Demon_tex/Demon_default_tex/Demon1_Roughness.png
+Assets/XvQiLin/Resources/Music/平常音乐01.mp3
+Assets/XvQiLin/Resources/Music/平常音乐02.mp3
+Assets/XvQiLin/Resources/Music/平常音乐03.mp3
+Assets/XvQiLin/Resources/Music/游戏主菜单音乐.mp3
+Assets/XvQiLin/Resources/Music/鬼魂巡逻音乐01.mp3
+Assets/XvQiLin/Resources/Music/鬼魂巡逻音乐02.mp3
+Assets/XvQiLin/Resources/Music/鬼魂抓人.mp3
+Assets/XvQiLin/Resources/Music/鬼魂猎杀01.mp3
+Assets/XvQiLin/Resources/Music/鬼魂猎杀02.mp3
+Assets/Zeng/Resources/Image/绿色骷髅.jpg
+Assets/Zeng/Resources/Model/指针/Throwing Knife_UV/Height.png
+Assets/Zeng/Resources/Model/指针/Throwing Knife_UV/Normal.png
+Assets/Zeng/Resources/Model/指针/Throwing Knife_UV/diffuse.png
+Assets/Zeng/Resources/Model/指针/obj.obj
+Assets/Zeng/Resources/Model/电闸箱2/textures/utility_box_02_nor_gl_1k.exr
+Assets/Zeng/Resources/Music/恐怖游戏背景音乐.mp3
+Assets/Zeng/Resources/effect/effects/Effects/Textures/fire4x4.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/fire4x4_blue.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/fire4x4_green.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/fire4x4_modular.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/fire4x4_purple.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/fire_modular.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/firering.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/portal_modular2.png
+Assets/Zeng/Resources/effect/effects/Effects/Textures/smokedissolve.png
+Assets/Zeng/Resources/effect/effects/Upgrade/Sci-Fi Arsenal URP Upgrade 2019.4.24f1.unitypackage
+Assets/Zeng/Resources/外部导入资源/1/1.fbx
+Assets/Zeng/Resources/外部导入资源/1/tex/Candlestick_Base_Color.jpg
+Assets/Zeng/Resources/外部导入资源/1/tex/Candlestick_Roughness.jpg
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Animations/Horror_Mutant@Idle.FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(1).tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(2).tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(3).tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(4).tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(5).tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_Albedo(6).tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_normals.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Creature_Horror_Mutant/Textures/Horror_Mutant_specular.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/Stand/stend.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/animation/Drakonit_monster@Atak_1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/animation/Drakonit_monster@Atak_spell.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/baze_mech/Drakonit_monster_lod_0.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/baze_mech/Drakonit_monster_lod_1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/baze_mech/Drakonit_monster_lod_2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_1K/1_ao.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_1K/T_bodi_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_1K/T_bodi_Emissive.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_1K/T_bodi_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_1K/T_bodi_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_4K/1_ao.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_4K/T_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_4K/T_Emissive.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_4K/T_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_1_4K/T_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_1K/1_ao.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_1K/T_bodi_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_1K/T_bodi_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_1K/T_bodi_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_4K/1_ao.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_4K/T_bodi_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_4K/T_bodi_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_2_4K/T_bodi_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_1K/1_ao.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_1K/T_bodi_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_1K/T_bodi_Emission.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_1K/T_bodi_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_1K/T_bodi_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_4K/1_ao.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_4K/T_bodi_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_4K/T_bodi_Emission.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_4K/T_bodi_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/set_3_4K/T_bodi_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/weapons/T_weapons_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/weapons/T_weapons_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/Ghost/Drakonit_monster/texture/weapons/T_weapons_Normal.png
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Attack(1).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Attack(2).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Attack(3).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Attack(4).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Attack(5).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Attack(6).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Dead.FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Get_hit.FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Idle(1).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Idle(2).FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Animations/Human_Mutant@Shout.FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Mesh/Mesh.FBX
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Textures/Human_Mutant_Albedo.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Textures/Human_Mutant_Normals.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Human_Mutant/Textures/Human_Mutant_Specular.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack1LSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack1RSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack2LSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack2RLSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack3RSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack4.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack4RSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack5.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@attack5LSpike.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@death1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@death2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@death3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@death4.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@gethit1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@gethit2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@gethit3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@gethit4.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@idle1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@idle2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@idle3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@idle4.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@jump.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@rage.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@run1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@run2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@run3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@strafeleft.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@straferight.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@walk2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@walk3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@walk4.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Animations/MutantMonster2@walkback.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Base mesh/Base mesh MonsterMutant7.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin1 body v2/1_Albedo.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin1 body v2/1_Emission.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin1 body v2/1_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin1 body v2/1_Occlusion.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin1 body v2/1_metalic+gloss.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin2 body v2/2_Albedo.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin2 body v2/2_Emission.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin2 body v2/2_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin2 body v2/2_Occlusion.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin2 body v2/2_metalic+gloss.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin3 body v2/3_Albedo.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin3 body v2/3_Emission2.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin3 body v2/3_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin3 body v2/3_Occlusion.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin3 body v2/3_metalic+gloss.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin4 body v2/4_Albedo.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin4 body v2/4_Emission.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin4 body v2/4_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin4 body v2/4_Occlusion.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/MonsterMutant 7/Texture/textures skin4 body v2/4_metalic+gloss.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/Base mesh/Base mesh.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@atack1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@atack2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@atack3.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@death.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@gethit.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@idle1.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@idle2.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@jump.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@rage.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@run.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/animation/bug@walk.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/textures/Bug 1_Albedo.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/textures/Bug 1_Emission.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/textures/Bug 1_Metallic.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/textures/Bug 1_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/Nightmare Beetle/textures/Bug 1_Occlusion.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Environment/Textures/Catacombs.png
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Environment/Textures/Catacombs_NRML.png
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_ao.png
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_diff.png
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_met_smo.png
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Horror_creature6_v1.0/Textures/thc6_nrml.png
+Assets/Zeng/Resources/外部导入资源/Ghost/True_Horror_Creatures/Horror_creature6_v1.0/ghost4.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/animation/monster_scavenger.fbx
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_body_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_body_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_body_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_mustache_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_mustache_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_mustache_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_teeth_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_tongue_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_tongue_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin gray/monster_scavenger_tongue_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_body_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_body_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_body_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_mustache_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_mustache_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_mustache_Normal.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_teeth_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_tongue_AlbedoTransparency.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_tongue_MetallicSmoothness.tga
+Assets/Zeng/Resources/外部导入资源/Ghost/monster_scavenger/textures/skin red/monster_scavenger_tongue_Normal.tga
+Assets/Zeng/Resources/外部导入资源/PK/PK.blend
+Assets/Zeng/Resources/外部导入资源/PK/PK.glb
+Assets/Zeng/Resources/外部导入资源/PK/Texture/Hight__Base_color.png
+Assets/Zeng/Resources/外部导入资源/PK/Texture/Hight__Height.png
+Assets/Zeng/Resources/外部导入资源/PK/Texture/Hight__Mixed_AO.png
+Assets/Zeng/Resources/外部导入资源/PK/Texture/Hight__Normal_OpenGL.png
+Assets/Zeng/Resources/外部导入资源/PK/Texture/Hight__Roughness.png
+Assets/Zeng/Resources/外部导入资源/Piloto Studio火堆/Textures/tex_Noise_Caustic_Normal.png
+Assets/Zeng/Resources/外部导入资源/UI/恐怖游戏UI/Assets/24.jpg
+Assets/Zeng/Resources/外部导入资源/UI/恐怖游戏UI/Assets/28.jpg
+Assets/Zeng/Resources/外部导入资源/UI/恐怖游戏UI/Inventory.psd
+Assets/Zeng/Resources/外部导入资源/UI/恐怖游戏UI/Main.psd
+Assets/Zeng/Resources/外部导入资源/model/RealSSS_Candy.fbx
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Night/Cold Night Equirect.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Sunset/Cold Sunset Equirect.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Sunset/Cold Sunset__Cam_0_Front+Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Sunset/Cold Sunset__Cam_1_Back-Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Sunset/Cold Sunset__Cam_2_Left+X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Sunset/Cold Sunset__Cam_3_Right-X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Cold Sunset/Cold Sunset__Cam_4_Up+Y.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Deep Dusk/Deep Dusk Equirect.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_Cam_0_Front+Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_Cam_1_Back-Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_Cam_2_Left+X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_Cam_3_Right-X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_Cam_4_Up+Y.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_Cam_5_Down-Y.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_BlueSunset/Epic_BlueSunset_EquiRect_flat.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_GloriousPink/Epic_GloriousPink_Cam_0_Front+Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_GloriousPink/Epic_GloriousPink_Cam_1_Back-Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_GloriousPink/Epic_GloriousPink_Cam_4_Up+Y.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Epic_GloriousPink/Epic_GloriousPink_EquiRect.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Night MoonBurst/AllSky_Night_MoonBurst Equirect.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Night MoonBurst/Night Moon Burst_Cam_0_Front+Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Night MoonBurst/Night Moon Burst_Cam_1_Back-Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Night MoonBurst/Night Moon Burst_Cam_2_Left+X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Night MoonBurst/Night Moon Burst_Cam_3_Right-X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Night MoonBurst/Night Moon Burst_Cam_4_Up+Y.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet Equirect.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_0_Front+Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_1_Back-Z.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_2_Left+X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_3_Right-X.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_4_Up+Y.png
+Assets/Zeng/Resources/外部导入资源/model/天空盒/Space_AnotherPlanet/AllSky_Space_AnotherPlanet_Cam_5_Down-Y.png
+Assets/Zeng/Resources/外部导入资源/model/开关/SRP UpgradePackage/Built-in_Material.unitypackage
+Assets/Zeng/Resources/外部导入资源/model/开关/SRP UpgradePackage/URP_Material.unitypackage
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/InsideMaterial_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/InsideMaterial_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/Socket02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/Socket02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/Socket02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/Socket03Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/Socket03Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/Socket03Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/SocketCase01Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/SocketCase02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Black/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/InsideMaterial_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/InsideMaterial_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/InsideMaterial_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/Socket02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/Socket02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/Socket02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/Socket03Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/Socket03Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/Socket03Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/SocketCase01Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/SocketCase01Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/SocketCase02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/SocketCase02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/BlackDirt/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/Black/SocketCase01Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/Black/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/Black/SocketCase02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/Black/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/BlackDirt/SocketCase01Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/BlackDirt/SocketCase01Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/BlackDirt/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/BlackDirt/SocketCase02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/BlackDirt/SocketCase02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/BlackDirt/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/White/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/White/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/WhiteDirt/SocketCase01Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/WhiteDirt/SocketCase01Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/WhiteDirt/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/WhiteDirt/SocketCase02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/WhiteDirt/SocketCase02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/Rotation/WhiteDirt/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/White/InsideMaterial_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/White/Socket02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/White/Socket03Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/White/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/White/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/InsideMaterial_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/InsideMaterial_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/InsideMaterial_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/Socket02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/Socket02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/Socket02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/Socket03Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/Socket03Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/Socket03Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/SocketCase01Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/SocketCase01Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/SocketCase01Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/SocketCase02Material_AlbedoTransparency.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/SocketCase02Material_MetallicSmoothness.png
+Assets/Zeng/Resources/外部导入资源/model/开关/Textures/2048/WhiteDirt/SocketCase02Material_Normal.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Basemesh/SK_Military_Survivalist.fbx
+Assets/Zeng/Resources/外部导入资源/model/角色模型/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+Assets/Zeng/Resources/外部导入资源/model/角色模型/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Body/T_Military_Hands1_color_skin1.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Body/T_Military_Hands1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Body/T_Military_Head1_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Body/T_Military_Head1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Body/T_Military_Head1_rough.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Boots3_Skin3_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Boots3_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Pants2_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Pants2_color_skin1.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Pants2_color_skin2.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Pants2_color_skin3.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Pants2_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Bottom/T_Military_Pants2_rough.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_color_skin1.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_color_skin2.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_color_skin3.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_color_skin4.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Backpack1_rough.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Gloves1_color_skin1.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Gloves1_color_skin2.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Gloves1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Pouches1_Skin1_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Pouches1_Skin2_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Pouches1_Skin3_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Pouches1_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Pouches1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Vest1_Skin1_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Vest1_Skin2_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Vest1_Skin3_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Vest1_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Equip/T_Military_Vest1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/FPS_Arms/T_Military_Hands3_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/FPS_Arms/T_Military_Hands3_color_skin1.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/FPS_Arms/T_Military_Hands3_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/FPS_Arms/T_Military_Hands3_rough.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Caps1_Skin1_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Caps1_Skin2_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Caps1_Skin3_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Caps1_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Caps1_nmap.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Caps1_skin4_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Shirt3_Skin1_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Shirt3_Skin2_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Shirt3_Skin3_color.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Shirt3_ao.png
+Assets/Zeng/Resources/外部导入资源/model/角色模型/Texture/Top/T_Military_Shirt3_nmap.png
+Assets/Zeng/Resources/外部导入资源/灯泡/FBX/lamp .fbx
+Assets/Zeng/角色素材/CrouchAnimation/Crouch Torch Walk Back.fbx
+Assets/Zeng/角色素材/CrouchAnimation/Crouched Sneaking Left.fbx
+Assets/Zeng/角色素材/CrouchAnimation/Crouched Sneaking Right.fbx
+Assets/Zeng/角色素材/CrouchAnimation/Crouched Walking.fbx
+Assets/Zeng/角色素材/CrouchAnimation/Female Crouch Pose.fbx
+Assets/Zeng/角色素材/CrouchAnimation/Standing To Crouched.fbx
+Assets/Zeng/角色素材/CrouchAnimation/Standing.fbx
+Assets/Zeng/角色素材/MoveAnimation/Happy Walk Backward.fbx
+Assets/Zeng/角色素材/MoveAnimation/Left Run.fbx
+Assets/Zeng/角色素材/MoveAnimation/Left Strafe Walking.fbx
+Assets/Zeng/角色素材/MoveAnimation/Right Run.fbx
+Assets/Zeng/角色素材/MoveAnimation/Right Strafe Walking.fbx
+Assets/Zeng/角色素材/MoveAnimation/Running.fbx
+Assets/Zeng/角色素材/MoveAnimation/StartWalking.fbx
+Assets/Zeng/角色素材/MoveAnimation/Swagger Walk.fbx
+Assets/Zeng/角色素材/MoveAnimation/Walking While Texting.fbx
+Assets/Zeng/角色素材/OpenDoorAnimation/Opening Door Inwards.fbx
+Assets/Zeng/角色素材/plot/Dying Backwards.fbx
+Assets/Zeng/角色素材/plot/LookIdle.fbx
+Assets/Zeng/角色素材/plot/Opening A Lid.fbx
+Assets/Zeng/角色素材/plot/Standing Yell.fbx
+Assets/Zeng/角色素材/plot/Talking On Phone.fbx
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_1.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_2.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_3.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_4.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_5.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_6.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_7.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Attack_8.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_1.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_2.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_3.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Dead_4.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Get_Hit_1.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Get_Hit_2.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle_Othe.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle_Other_02.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Idle_Sit.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Jump.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run_Back.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run_Left.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Run_Right.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Shout.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Take_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_Right.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_Right_Sit.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_left.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Turn_left_Sit.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Back.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Back_Sit.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Left.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Left_Sit.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Right.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Sit.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/1With_Weapon/Warrior@Walk_Sit_Right.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_1_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_2_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_Left_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Dead_Right_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Get_Hit_1_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Get_Hit_2_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_2_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_3_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_Swim.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Idle_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Jump_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Back_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Left_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Right_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Run_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Shout_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Swim.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_Right_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_Right_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_left_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Turn_left_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Back_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Back_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Left_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Left_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Right_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Right_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Sit_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/2Without_Weapon/Warrior@Walk_Without_Weapon.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Run.fbx
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Walk.fbm/maria_diffuse.png
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Walk.fbm/maria_normal.png
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Walk.fbm/maria_specular.png
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Sword And Shield Walk.fbx
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Back_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Left_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Right_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Run_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Back_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Back_Sit_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Left_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Left_Sit_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Right_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Sit_Right_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/3Root_With_Weapon/Warrior@Walk_Sit_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Back_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Left_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Right_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Run_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Swim_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Back_Sit_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Back_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Left_Sit_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Left_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Right_Sit_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Right_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Sit_Without_Weapon_Root.FBX
+Assets/Zeng/角色素材/带根运动的动画)/RPG_Fentasy_(Pack)/Ainimations_Barbarian_Bear_Dwarf_Knight_Orc_Warrior/4Root_Without_Weapon/Warrior@Walk_Without_Weapon_Root.FBX
+
+# ==== END 大体积资源排除 ====
+
+# Unity .gitignore Template
+# Source: https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Last synced: 2026-07-02
+# License: CC0-1.0
+#
+# This template is maintained from the github/gitignore repository
+# and distributed under Creative Commons Zero v1.0 Universal license.
+
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+# Recommended: add any editor/OS/tool-specific ignore rules from the Global/ templates as needed.
+# See: https://github.com/github/gitignore/tree/main/Global
+#
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
+*.blend1
+*.blend1.meta
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
+/[Mm]emoryCaptures/
+
+# Recordings can get excessive in size
+/[Rr]ecordings/
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Autogenerated Jetbrains Rider plugin
+/[Aa]ssets/Plugins/Editor/JetBrains*
+# Jetbrains Rider personal-layer settings
+*.DotSettings.user
+
+# Visual Studio cache directory
+.vs/
+
+# Gradle cache directory
+.gradle/
+
+# Autogenerated VS/MD/Consulo solution and project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Mono auto generated files
+mono_crash.*
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# TestRunner generated files
+InitTestScene*.unity*
+
+# Addressables default ignores, before user customizations
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+# By default, Addressables content builds will generate addressables_content_state.bin
+# files in platform-specific subfolders, for example:
+# /Assets/AddressableAssetsData/OSX/addressables_content_state.bin
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# Visual Scripting auto-generated files
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db.meta
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
+
+# Auto-generated scenes by play mode tests
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Auto-generated cache in Assets folder
+/[Aa]ssets/[Ss]ceneDependencyCache*
+

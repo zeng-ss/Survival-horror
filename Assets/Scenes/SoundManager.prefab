@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8648263557582356482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8648263557582356508}
+  - component: {fileID: 8648263557582356483}
+  - component: {fileID: 8648263557582356509}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8648263557582356508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648263557582356482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.3825208, y: 0.43433118, z: -0.3324171}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8648263557582356483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648263557582356482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60da089c641c05b4c8080df54f42e1b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  openDoorClip: {fileID: 8300000, guid: 1a0fbf9c1432c6743ad8dce66b2b7bf3, type: 3}
+  pickUpClip: {fileID: 8300000, guid: 55971b807be8d5e4689300c75587f2e1, type: 3}
+  baseBtnClick: {fileID: 8300000, guid: 603940f4a623ea04985a83ec136082bb, type: 3}
+  mesBtnClick: {fileID: 8300000, guid: f77ed87a6e48b5f42ac6f11873fe8839, type: 3}
+  menuBtnClick: {fileID: 8300000, guid: 2cd0cd5aafa78784a9578fe05f2ddd39, type: 3}
+  closeDoorClip: {fileID: 8300000, guid: 6be6a78eef9548145bdd6f339ada6fb5, type: 3}
+  switchClip: {fileID: 8300000, guid: ae812a8b49b431a4a902f9fc9e8ac0bb, type: 3}
+  elevatorTipClip: {fileID: 8300000, guid: 745719adb851fc2478f6fba5b350c725, type: 3}
+  circuitBreakerTrippedClip: {fileID: 8300000, guid: 7bb0d0b0f4761cd48bb9c7f0dfd96414, type: 3}
+  openCircuitBreakerClip: {fileID: 8300000, guid: 91ff347f55144e947a3ed633f0eab030, type: 3}
+  fireClip: {fileID: 8300000, guid: dee850b463780cf4ab6d472a55bdbe26, type: 3}
+  baseGhostClips:
+  - {fileID: 8300000, guid: 977865b16b8b9774fbfa7c75b407a000, type: 3}
+  - {fileID: 8300000, guid: 0e743e55088a05742b8f37da49e95cfb, type: 3}
+  - {fileID: 8300000, guid: e4ff372923bcb5b46af86d185c02d47c, type: 3}
+  - {fileID: 8300000, guid: 842de04c6a1e8ae4e97ca1cd4b3b084e, type: 3}
+  subtitlesGhostClips:
+  - {fileID: 8300000, guid: 04c7637679d9a0b498a99763a4aad901, type: 3}
+  - {fileID: 8300000, guid: e661ae4d23f5f1a469f7bd684580dc99, type: 3}
+  - {fileID: 8300000, guid: 14e058f7ef1e92944a7667b767407fab, type: 3}
+  - {fileID: 8300000, guid: 522d4dbfa3ba8a54788323daafa568f2, type: 3}
+  - {fileID: 8300000, guid: 49c388dafcafdd14d811bfaaf7418b36, type: 3}
+  - {fileID: 8300000, guid: 04258822e836fa94eb450e200a07ac92, type: 3}
+  - {fileID: 8300000, guid: 20c9b2ee0856f9d40bea78653e256531, type: 3}
+  - {fileID: 8300000, guid: 563a3148987b7904a963fae5dd019dec, type: 3}
+  - {fileID: 8300000, guid: 6e56c4b2147fc4b4aaca1054ac66c5ef, type: 3}
+  - {fileID: 8300000, guid: adc86e3b12e097841add5a7e312a20a2, type: 3}
+  plotGhostClips:
+  - {fileID: 8300000, guid: f34fee69ed7385448b14c5c6e65d588d, type: 3}
+  - {fileID: 8300000, guid: 6f28f16ed8a9d3f4aabdbb6b3c091318, type: 3}
+  - {fileID: 8300000, guid: 6cff287728da9ba46871a46498ef0709, type: 3}
+  - {fileID: 8300000, guid: eea584f72d2467246af2d1683b55f565, type: 3}
+  - {fileID: 8300000, guid: a0ef8a5754c45314fa6bf67a42ffa902, type: 3}
+  - {fileID: 8300000, guid: b0a7b91cc18626647b964ea2b8b6f47e, type: 3}
+  - {fileID: 8300000, guid: 5815f0cb7ea898a4dbede8861b016320, type: 3}
+--- !u!82 &8648263557582356509
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648263557582356482}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

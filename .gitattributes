@@ -1,0 +1,62 @@
+# Unity .gitattributes
+# 说明：本项目不提交大体积美术资源（见 .gitignore），因此未启用 Git LFS，
+#       剩余资源均为小文件，用普通 Git 存储即可。若以后需要提交大文件，
+#       可在文件末尾自行追加 LFS 规则（需先安装并 git lfs install）。
+
+# Unity YAML 文件使用专用合并（未配置 merge 驱动时 Git 会自动回退）
+[attr]unity-yaml        merge=unityyamlmerge eol=lf linguist-language=yaml
+[attr]unity-json        eol=lf linguist-language=json
+
+# 源码
+*.cginc                 text
+*.compute               text linguist-language=hlsl
+*.cs                    text diff=csharp
+*.hlsl                  text linguist-language=hlsl
+*.raytrace              text linguist-language=hlsl
+*.shader                text
+
+# Unity JSON
+*.asmdef                unity-json
+*.asmref                unity-json
+*.index                 unity-json
+*.inputactions          unity-json
+*.shadergraph           unity-json
+*.shadersubgraph        unity-json
+
+# Unity UI Toolkit
+*.tss                   text diff=css linguist-language=css
+*.uss                   text diff=css linguist-language=css
+*.uxml                  text linguist-language=xml linguist-detectable
+
+# Unity YAML
+*.anim                  unity-yaml
+*.asset                 unity-yaml
+*.brush                 unity-yaml
+*.controller            unity-yaml
+*.flare                 unity-yaml
+*.fontsettings          unity-yaml
+*.giparams              unity-yaml
+*.guiskin               unity-yaml
+*.lighting              unity-yaml
+*.mask                  unity-yaml
+*.mat                   unity-yaml
+*.meta                  unity-yaml
+*.mixer                 unity-yaml
+*.overrideController    unity-yaml
+*.playable              unity-yaml
+*.prefab                unity-yaml
+*.preset                unity-yaml
+*.renderTexture         unity-yaml
+*.scenetemplate         unity-yaml
+*.shadervariants        unity-yaml
+*.signal                unity-yaml
+*.spriteatlas           unity-yaml
+*.spriteatlasv2         unity-yaml
+*.terrainlayer          unity-yaml
+*.unity                 unity-yaml
+*.physicMaterial        unity-yaml
+*.physicsMaterial2D     unity-yaml
+
+# 统计显示：第三方插件折叠
+Assets/Plugins/**           linguist-generated
+Packages/packages-lock.json linguist-generated

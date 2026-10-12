@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Bood_Simple_Splash_2x2_A
+  m_Shader: {fileID: 4800000, guid: b94b51226be8c9a4dae73053e2df6a69, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Detail:
+        m_Texture: {fileID: 2800000, guid: f86240b36480d8843b9de02f5497a216, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HighlightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2dd1c7c395c52cd4ab889595d6406fdd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0905a9bb5e4bb6748b6c7b92c39e98b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: a65e8aefcec7ede4389bcd19c44e3abd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 11868e4144e4ed541a6ae3cd71db9121, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflect:
+        m_Texture: {fileID: 2800000, guid: bc90557c94f83774ca4e2ef3470ff8d7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _UVOff:
+        m_Texture: {fileID: 2800000, guid: 4fc46ff0ac5a52c46962fad1851234a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Columns: 2
+    - _DetailAlphaAffect: 1.16
+    - _DetailBrightAffect: -0.47
+    - _DetailPan: 0.15
+    - _DetailTile: 3.95
+    - _EdgeMin: 0.05
+    - _EdgeSoft: 0.05
+    - _Glossiness: 0.5
+    - _HighSharp: 1
+    - _InvFade: 8
+    - _Metallic: 0
+    - _OffPow: 0.52
+    - _OffTile: 1.31
+    - _Overbright: 0
+    - _RampAffect: 0.5
+    - _RampTile: 3.4
+    - _Rows: 2
+    m_Colors:
+    - _ChannelMask: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _HighlightColor: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+    - _LightDir: {r: 0.66176474, g: 0.5352509, b: 0.5352509, a: 0}
+    - _TintColor: {r: 1, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []

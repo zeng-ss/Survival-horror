@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5945256216055917002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5945256216055917000}
+  - component: {fileID: 5945256216055917003}
+  m_Layer: 0
+  m_Name: MusicManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5945256216055917000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945256216055917002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.49, y: 4.991641, z: -3.4002876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5945256216055917003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5945256216055917002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964e06ba6608722419a0865b32e5bae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 0}
+  normalMusicClips:
+  - {fileID: 8300000, guid: 05b35d31e37dc3847be03c49d7dc0862, type: 3}
+  - {fileID: 8300000, guid: 05f8354078bb6c0488e87a0bb5b659a2, type: 3}
+  - {fileID: 8300000, guid: e0befbd8b2348434aba942f6646b5582, type: 3}
+  patrolMusicClips:
+  - {fileID: 8300000, guid: e1536f55a17c9654db11aa52dc3ce000, type: 3}
+  - {fileID: 8300000, guid: 391b922c06ae3f24eae48d5704a84351, type: 3}
+  huntMusicClips:
+  - {fileID: 8300000, guid: a15918035bd230b4db27837f09b46cd6, type: 3}
+  - {fileID: 8300000, guid: a32a270f0276d244ba0a3796f504a65e, type: 3}
+  jumpScareMusicClips:
+  - {fileID: 8300000, guid: d016a3b8b41eca94ab857ec08eefde1b, type: 3}
+  fadeDuration: 3
+  maxVolume: 0.8
+  stopMusicOnSceneChange: 1
+  musicEnabledScenes:
+  - XQl
